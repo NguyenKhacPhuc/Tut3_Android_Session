@@ -22,6 +22,7 @@ public class LogIn extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.login);
         initview();
+//        logIn.setCompoundDrawablesWithIntrinsicBounds(R.drawable.left_icon,0,0,0);
         logIn.setOnClickListener(click ->{
             checkCondition();
         });
